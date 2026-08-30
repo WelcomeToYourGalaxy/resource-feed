@@ -1,0 +1,1413 @@
+{
+ "_note": "Sources for the resource wire — control of resources, after Part 1(a) of Suppression. Three kinds. 'direct' are the institutions that make the rules and the projects that measure them, read from their own feeds. 'gnews' are Google News regional editions, one query per subject per edition, written so that a CONTROL term is always required: a sector word alone never qualifies, which is what keeps this from becoming a mining, farming or shipping wire. 'events' are standing watches on the recurring institutional acts — a programme approved, a concession awarded, an arbitration filed. Dead feeds are printed by verify_sources.py --dead.",
+ "direct": [
+  {
+   "name": "International Monetary Fund",
+   "lang": "en",
+   "standing": "official",
+   "url": "https://www.imf.org/en/News/RSS?language=eng&series=News%20Articles"
+  },
+  {
+   "name": "World Bank",
+   "lang": "en",
+   "standing": "official",
+   "url": "https://www.worldbank.org/en/news/all?format=rss"
+  },
+  {
+   "name": "World Trade Organization",
+   "lang": "en",
+   "standing": "official",
+   "url": "https://www.wto.org/library/rss/latest_news_e.xml"
+  },
+  {
+   "name": "Bank for International Settlements",
+   "lang": "en",
+   "standing": "official",
+   "url": "https://www.bis.org/list/press_rlsg/rss.xml"
+  },
+  {
+   "name": "UNCTAD",
+   "lang": "en",
+   "standing": "official",
+   "url": "https://unctad.org/rss/news"
+  },
+  {
+   "name": "Federal Reserve",
+   "lang": "en",
+   "standing": "official",
+   "url": "https://www.federalreserve.gov/feeds/press_all.xml"
+  },
+  {
+   "name": "European Central Bank",
+   "lang": "en",
+   "standing": "official",
+   "url": "https://www.ecb.europa.eu/rss/press.html"
+  },
+  {
+   "name": "Bank of England",
+   "lang": "en",
+   "standing": "official",
+   "url": "https://www.bankofengland.co.uk/boeapps/rss/feeds.aspx?feed=News"
+  },
+  {
+   "name": "OECD",
+   "lang": "en",
+   "standing": "official",
+   "url": "https://www.oecd.org/newsroom/index.xml"
+  },
+  {
+   "name": "Financial Stability Board",
+   "lang": "en",
+   "standing": "official",
+   "url": "https://www.fsb.org/feed/"
+  },
+  {
+   "name": "FAO",
+   "lang": "en",
+   "standing": "official",
+   "url": "https://www.fao.org/feeds/news/en/rss.xml"
+  },
+  {
+   "name": "UN Economic and Social Council",
+   "lang": "en",
+   "standing": "official",
+   "url": "https://news.un.org/feed/subscribe/en/news/topic/economic-development/feed/rss.xml"
+  },
+  {
+   "name": "AidData",
+   "lang": "en",
+   "standing": "research",
+   "url": "https://www.aiddata.org/rss.xml"
+  },
+  {
+   "name": "Tax Justice Network",
+   "lang": "en",
+   "standing": "research",
+   "url": "https://taxjustice.net/feed/"
+  },
+  {
+   "name": "Debt Justice",
+   "lang": "en",
+   "standing": "rights",
+   "url": "https://debtjustice.org.uk/feed"
+  },
+  {
+   "name": "Eurodad",
+   "lang": "en",
+   "standing": "rights",
+   "url": "https://www.eurodad.org/rss"
+  },
+  {
+   "name": "Global Witness",
+   "lang": "en",
+   "standing": "rights",
+   "url": "https://www.globalwitness.org/en/rss/"
+  },
+  {
+   "name": "GRAIN",
+   "lang": "en",
+   "standing": "rights",
+   "url": "https://grain.org/en/rss/articles"
+  },
+  {
+   "name": "Land Portal",
+   "lang": "en",
+   "standing": "research",
+   "url": "https://landportal.org/rss.xml"
+  },
+  {
+   "name": "Oakland Institute",
+   "lang": "en",
+   "standing": "rights",
+   "url": "https://www.oaklandinstitute.org/rss.xml"
+  },
+  {
+   "name": "Transnational Institute",
+   "lang": "en",
+   "standing": "rights",
+   "url": "https://www.tni.org/en/rss.xml"
+  },
+  {
+   "name": "Bretton Woods Project",
+   "lang": "en",
+   "standing": "rights",
+   "url": "https://www.brettonwoodsproject.org/feed/"
+  },
+  {
+   "name": "Public Citizen · Global Trade Watch",
+   "lang": "en",
+   "standing": "rights",
+   "url": "https://www.citizen.org/feed/"
+  },
+  {
+   "name": "Corporate Europe Observatory",
+   "lang": "en",
+   "standing": "rights",
+   "url": "https://corporateeurope.org/en/rss.xml"
+  },
+  {
+   "name": "Financial Transparency Coalition",
+   "lang": "en",
+   "standing": "rights",
+   "url": "https://financialtransparency.org/feed/"
+  },
+  {
+   "name": "Natural Resource Governance Institute",
+   "lang": "en",
+   "standing": "research",
+   "url": "https://resourcegovernance.org/rss.xml"
+  },
+  {
+   "name": "Peterson Institute",
+   "lang": "en",
+   "standing": "research",
+   "url": "https://www.piie.com/rss/update.xml"
+  },
+  {
+   "name": "Council on Foreign Relations",
+   "lang": "en",
+   "standing": "research",
+   "url": "https://www.cfr.org/rss/all"
+  },
+  {
+   "name": "ODI",
+   "lang": "en",
+   "standing": "research",
+   "url": "https://odi.org/en/feed/"
+  },
+  {
+   "name": "CEPR",
+   "lang": "en",
+   "standing": "research",
+   "url": "https://cepr.net/feed/"
+  }
+ ],
+ "gnews": [
+  {
+   "label": "English (US) 1",
+   "lang": "en",
+   "standing": "press",
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en",
+   "query": "\"central bank\" AND (balance sheet OR \"quantitative easing\" OR \"money supply\" OR reserve requirement)"
+  },
+  {
+   "label": "English (UK) 2",
+   "lang": "en",
+   "standing": "press",
+   "hl": "en-GB",
+   "gl": "GB",
+   "ceid": "GB:en-GB",
+   "query": "\"interest rate\" decision OR bailout OR \"shadow banking\" OR repo market OR securitisation"
+  },
+  {
+   "label": "English (India) 3",
+   "lang": "en",
+   "standing": "press",
+   "hl": "en-IN",
+   "gl": "IN",
+   "ceid": "IN:en",
+   "query": "(IMF OR \"World Bank\") AND (loan OR conditionality OR \"structural adjustment\" OR austerity OR programme)"
+  },
+  {
+   "label": "English (Nigeria) 4",
+   "lang": "en",
+   "standing": "press",
+   "hl": "en-NG",
+   "gl": "NG",
+   "ceid": "NG:en",
+   "query": "\"sovereign debt\" AND (default OR restructuring OR moratorium OR \"debt relief\" OR \"debt swap\")"
+  },
+  {
+   "label": "English (South Africa) 5",
+   "lang": "en",
+   "standing": "press",
+   "hl": "en-ZA",
+   "gl": "ZA",
+   "ceid": "ZA:en",
+   "query": "\"resource-backed loan\" OR \"debt-for-equity\" OR \"hidden debt\" OR \"undisclosed loan\" OR \"bilateral lender\""
+  },
+  {
+   "label": "English (Australia) 6",
+   "lang": "en",
+   "standing": "press",
+   "hl": "en-AU",
+   "gl": "AU",
+   "ceid": "AU:en",
+   "query": "\"credit rating\" downgrade sovereign OR \"correspondent banking\" de-risking OR SWIFT access cut"
+  },
+  {
+   "label": "English (Kenya) 7",
+   "lang": "en",
+   "standing": "press",
+   "hl": "en-KE",
+   "gl": "KE",
+   "ceid": "KE:en",
+   "query": "WTO ruling OR tariff OR \"trade agreement\" AND (dispute OR quota OR \"export ban\" OR \"local content\")"
+  },
+  {
+   "label": "English (Philippines) 8",
+   "lang": "en",
+   "standing": "press",
+   "hl": "en-PH",
+   "gl": "PH",
+   "ceid": "PH:en",
+   "query": "ISDS OR \"investor-state\" arbitration OR \"bilateral investment treaty\" OR \"regulatory chill\""
+  },
+  {
+   "label": "English (US) 9",
+   "lang": "en",
+   "standing": "press",
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en",
+   "query": "(patent OR TRIPS OR UPOV OR \"plant variety\") AND (seed OR medicine OR licence OR enforcement)"
+  },
+  {
+   "label": "English (UK) 10",
+   "lang": "en",
+   "standing": "press",
+   "hl": "en-GB",
+   "gl": "GB",
+   "ceid": "GB:en-GB",
+   "query": "\"land grab\" OR \"land concession\" OR \"land titling\" OR expropriation OR \"special economic zone\""
+  },
+  {
+   "label": "English (India) 11",
+   "lang": "en",
+   "standing": "press",
+   "hl": "en-IN",
+   "gl": "IN",
+   "ceid": "IN:en",
+   "query": "(mining OR oil OR gas OR lithium OR cobalt OR \"rare earth\") AND (concession OR \"licensing round\" OR \"production sharing\" OR royalties OR nationalisation)"
+  },
+  {
+   "label": "English (Nigeria) 12",
+   "lang": "en",
+   "standing": "press",
+   "hl": "en-NG",
+   "gl": "NG",
+   "ceid": "NG:en",
+   "query": "(seed OR farmland OR fertiliser OR fisheries) AND (patent OR \"contract farming\" OR acquisition OR \"access agreement\" OR monopoly)"
+  },
+  {
+   "label": "English (South Africa) 13",
+   "lang": "en",
+   "standing": "press",
+   "hl": "en-ZA",
+   "gl": "ZA",
+   "ceid": "ZA:en",
+   "query": "(water OR electricity OR grid OR utility) AND (privatisation OR concession OR tariff hike OR remunicipalisation)"
+  },
+  {
+   "label": "English (Australia) 14",
+   "lang": "en",
+   "standing": "press",
+   "hl": "en-AU",
+   "gl": "AU",
+   "ceid": "AU:en",
+   "query": "(port OR terminal OR strait OR canal OR shipping lane) AND (concession OR ownership OR control OR blockade OR chokepoint)"
+  },
+  {
+   "label": "English (Kenya) 15",
+   "lang": "en",
+   "standing": "press",
+   "hl": "en-KE",
+   "gl": "KE",
+   "ceid": "KE:en",
+   "query": "CBDC OR \"digital currency\" central bank OR tokenised deposit OR \"programmable money\""
+  },
+  {
+   "label": "English (Philippines) 16",
+   "lang": "en",
+   "standing": "press",
+   "hl": "en-PH",
+   "gl": "PH",
+   "ceid": "PH:en",
+   "query": "\"tax haven\" OR \"beneficial ownership\" OR \"shell company\" OR \"transfer pricing\" OR \"illicit financial flows\""
+  },
+  {
+   "label": "English (US) 17",
+   "lang": "en",
+   "standing": "press",
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en",
+   "query": "\"universal basic income\" OR \"public banking\" OR \"debt cancellation\" OR \"resource sovereignty\" OR commons"
+  },
+  {
+   "label": "English (UK) 18",
+   "lang": "en",
+   "standing": "press",
+   "hl": "en-GB",
+   "gl": "GB",
+   "ceid": "GB:en-GB",
+   "query": "\"special drawing rights\" OR \"swap line\" OR \"capital controls\" OR \"reserve accumulation\" OR \"currency peg\""
+  },
+  {
+   "label": "Spanish (Spain) 1",
+   "lang": "es",
+   "standing": "press",
+   "hl": "es",
+   "gl": "ES",
+   "ceid": "ES:es",
+   "query": "banco central AND (\"política monetaria\" OR \"base monetaria\" OR encaje)"
+  },
+  {
+   "label": "Spanish (Americas) 2",
+   "lang": "es",
+   "standing": "press",
+   "hl": "es-419",
+   "gl": "MX",
+   "ceid": "MX:es-419",
+   "query": "(FMI OR \"Banco Mundial\") AND (préstamo OR condicionalidad OR ajuste OR austeridad)"
+  },
+  {
+   "label": "Spanish (Argentina) 3",
+   "lang": "es",
+   "standing": "press",
+   "hl": "es-419",
+   "gl": "AR",
+   "ceid": "AR:es-419",
+   "query": "\"deuda soberana\" AND (default OR reestructuración OR canje OR alivio)"
+  },
+  {
+   "label": "Spanish (Colombia) 4",
+   "lang": "es",
+   "standing": "press",
+   "hl": "es-419",
+   "gl": "CO",
+   "ceid": "CO:es-419",
+   "query": "(minería OR litio OR petróleo OR gas) AND (concesión OR licitación OR regalías OR nacionalización)"
+  },
+  {
+   "label": "Spanish (Spain) 5",
+   "lang": "es",
+   "standing": "press",
+   "hl": "es",
+   "gl": "ES",
+   "ceid": "ES:es",
+   "query": "\"acaparamiento de tierras\" OR \"concesión de tierras\" OR expropiación OR titulación"
+  },
+  {
+   "label": "Spanish (Americas) 6",
+   "lang": "es",
+   "standing": "press",
+   "hl": "es-419",
+   "gl": "MX",
+   "ceid": "MX:es-419",
+   "query": "(agua OR electricidad OR servicio público) AND (privatización OR concesión OR tarifa)"
+  },
+  {
+   "label": "Spanish (Argentina) 7",
+   "lang": "es",
+   "standing": "press",
+   "hl": "es-419",
+   "gl": "AR",
+   "ceid": "AR:es-419",
+   "query": "(puerto OR terminal OR estrecho) AND (concesión OR control OR propiedad)"
+  },
+  {
+   "label": "Spanish (Colombia) 8",
+   "lang": "es",
+   "standing": "press",
+   "hl": "es-419",
+   "gl": "CO",
+   "ceid": "CO:es-419",
+   "query": "\"paraíso fiscal\" OR \"sociedad pantalla\" OR \"flujos financieros ilícitos\""
+  },
+  {
+   "label": "Spanish (Spain) 9",
+   "lang": "es",
+   "standing": "press",
+   "hl": "es",
+   "gl": "ES",
+   "ceid": "ES:es",
+   "query": "arbitraje CIADI OR \"tratado bilateral de inversión\" OR demanda inversor-estado"
+  },
+  {
+   "label": "Spanish (Americas) 10",
+   "lang": "es",
+   "standing": "press",
+   "hl": "es-419",
+   "gl": "MX",
+   "ceid": "MX:es-419",
+   "query": "\"renta básica universal\" OR \"banca pública\" OR \"cancelación de deuda\""
+  },
+  {
+   "label": "French (France) 1",
+   "lang": "fr",
+   "standing": "press",
+   "hl": "fr",
+   "gl": "FR",
+   "ceid": "FR:fr",
+   "query": "\"banque centrale\" AND (\"politique monétaire\" OR \"création monétaire\" OR réserves)"
+  },
+  {
+   "label": "French (Africa) 2",
+   "lang": "fr",
+   "standing": "press",
+   "hl": "fr",
+   "gl": "SN",
+   "ceid": "SN:fr",
+   "query": "(FMI OR \"Banque mondiale\") AND (prêt OR conditionnalité OR ajustement OR austérité)"
+  },
+  {
+   "label": "French (Canada) 3",
+   "lang": "fr",
+   "standing": "press",
+   "hl": "fr",
+   "gl": "CA",
+   "ceid": "CA:fr",
+   "query": "\"dette souveraine\" AND (défaut OR restructuration OR annulation)"
+  },
+  {
+   "label": "French (France) 4",
+   "lang": "fr",
+   "standing": "press",
+   "hl": "fr",
+   "gl": "FR",
+   "ceid": "FR:fr",
+   "query": "(mine OR pétrole OR gaz OR lithium) AND (concession OR permis OR redevances OR nationalisation)"
+  },
+  {
+   "label": "French (Africa) 5",
+   "lang": "fr",
+   "standing": "press",
+   "hl": "fr",
+   "gl": "SN",
+   "ceid": "SN:fr",
+   "query": "\"accaparement des terres\" OR \"concession foncière\" OR expropriation"
+  },
+  {
+   "label": "French (Canada) 6",
+   "lang": "fr",
+   "standing": "press",
+   "hl": "fr",
+   "gl": "CA",
+   "ceid": "CA:fr",
+   "query": "(eau OR électricité) AND (privatisation OR concession OR tarif)"
+  },
+  {
+   "label": "French (France) 7",
+   "lang": "fr",
+   "standing": "press",
+   "hl": "fr",
+   "gl": "FR",
+   "ceid": "FR:fr",
+   "query": "(port OR terminal OR détroit) AND (concession OR contrôle)"
+  },
+  {
+   "label": "French (Africa) 8",
+   "lang": "fr",
+   "standing": "press",
+   "hl": "fr",
+   "gl": "SN",
+   "ceid": "SN:fr",
+   "query": "\"paradis fiscal\" OR \"société écran\" OR \"flux financiers illicites\""
+  },
+  {
+   "label": "French (Canada) 9",
+   "lang": "fr",
+   "standing": "press",
+   "hl": "fr",
+   "gl": "CA",
+   "ceid": "CA:fr",
+   "query": "arbitrage investisseur-État OR \"traité bilatéral d'investissement\""
+  },
+  {
+   "label": "French (France) 10",
+   "lang": "fr",
+   "standing": "press",
+   "hl": "fr",
+   "gl": "FR",
+   "ceid": "FR:fr",
+   "query": "\"revenu universel\" OR \"banque publique\" OR \"annulation de la dette\""
+  },
+  {
+   "label": "Portuguese (Brazil) 1",
+   "lang": "pt",
+   "standing": "press",
+   "hl": "pt-BR",
+   "gl": "BR",
+   "ceid": "BR:pt-419",
+   "query": "\"banco central\" AND (\"política monetária\" OR \"base monetária\")"
+  },
+  {
+   "label": "Portuguese (Portugal) 2",
+   "lang": "pt",
+   "standing": "press",
+   "hl": "pt-PT",
+   "gl": "PT",
+   "ceid": "PT:pt-150",
+   "query": "(FMI OR \"Banco Mundial\") AND (empréstimo OR condicionalidade OR austeridade)"
+  },
+  {
+   "label": "Portuguese (Angola) 3",
+   "lang": "pt",
+   "standing": "press",
+   "hl": "pt-PT",
+   "gl": "AO",
+   "ceid": "AO:pt-150",
+   "query": "\"dívida soberana\" AND (calote OR reestruturação OR perdão)"
+  },
+  {
+   "label": "Portuguese (Brazil) 4",
+   "lang": "pt",
+   "standing": "press",
+   "hl": "pt-BR",
+   "gl": "BR",
+   "ceid": "BR:pt-419",
+   "query": "(mineração OR petróleo OR lítio) AND (concessão OR leilão OR royalties OR estatização)"
+  },
+  {
+   "label": "Portuguese (Portugal) 5",
+   "lang": "pt",
+   "standing": "press",
+   "hl": "pt-PT",
+   "gl": "PT",
+   "ceid": "PT:pt-150",
+   "query": "\"grilagem de terras\" OR \"concessão de terras\" OR desapropriação"
+  },
+  {
+   "label": "Portuguese (Angola) 6",
+   "lang": "pt",
+   "standing": "press",
+   "hl": "pt-PT",
+   "gl": "AO",
+   "ceid": "AO:pt-150",
+   "query": "(água OR energia) AND (privatização OR concessão OR tarifa)"
+  },
+  {
+   "label": "Portuguese (Brazil) 7",
+   "lang": "pt",
+   "standing": "press",
+   "hl": "pt-BR",
+   "gl": "BR",
+   "ceid": "BR:pt-419",
+   "query": "\"paraíso fiscal\" OR \"empresa de fachada\" OR \"fluxos financeiros ilícitos\""
+  },
+  {
+   "label": "Portuguese (Portugal) 8",
+   "lang": "pt",
+   "standing": "press",
+   "hl": "pt-PT",
+   "gl": "PT",
+   "ceid": "PT:pt-150",
+   "query": "\"renda básica\" OR \"banco público\" OR \"cancelamento da dívida\""
+  },
+  {
+   "label": "German 1",
+   "lang": "de",
+   "standing": "press",
+   "hl": "de",
+   "gl": "DE",
+   "ceid": "DE:de",
+   "query": "Zentralbank AND (Geldpolitik OR Geldschöpfung OR Mindestreserve)"
+  },
+  {
+   "label": "German (Austria) 2",
+   "lang": "de",
+   "standing": "press",
+   "hl": "de",
+   "gl": "AT",
+   "ceid": "AT:de",
+   "query": "(IWF OR Weltbank) AND (Kredit OR Auflagen OR Sparprogramm)"
+  },
+  {
+   "label": "German 3",
+   "lang": "de",
+   "standing": "press",
+   "hl": "de",
+   "gl": "DE",
+   "ceid": "DE:de",
+   "query": "Staatsschulden AND (Zahlungsausfall OR Umschuldung OR Schuldenerlass)"
+  },
+  {
+   "label": "German (Austria) 4",
+   "lang": "de",
+   "standing": "press",
+   "hl": "de",
+   "gl": "AT",
+   "ceid": "AT:de",
+   "query": "(Bergbau OR Öl OR Lithium) AND (Konzession OR Lizenz OR Verstaatlichung)"
+  },
+  {
+   "label": "German 5",
+   "lang": "de",
+   "standing": "press",
+   "hl": "de",
+   "gl": "DE",
+   "ceid": "DE:de",
+   "query": "Landgrabbing OR Landkonzession OR Enteignung"
+  },
+  {
+   "label": "German (Austria) 6",
+   "lang": "de",
+   "standing": "press",
+   "hl": "de",
+   "gl": "AT",
+   "ceid": "AT:de",
+   "query": "(Wasser OR Strom) AND (Privatisierung OR Konzession OR Rekommunalisierung)"
+  },
+  {
+   "label": "German 7",
+   "lang": "de",
+   "standing": "press",
+   "hl": "de",
+   "gl": "DE",
+   "ceid": "DE:de",
+   "query": "Steueroase OR Briefkastenfirma OR \"illegale Finanzströme\""
+  },
+  {
+   "label": "German (Austria) 8",
+   "lang": "de",
+   "standing": "press",
+   "hl": "de",
+   "gl": "AT",
+   "ceid": "AT:de",
+   "query": "Investor-Staat-Schiedsverfahren OR Investitionsschutzabkommen"
+  },
+  {
+   "label": "German 9",
+   "lang": "de",
+   "standing": "press",
+   "hl": "de",
+   "gl": "DE",
+   "ceid": "DE:de",
+   "query": "Grundeinkommen OR \"öffentliche Bank\" OR Schuldenerlass"
+  },
+  {
+   "label": "Russian 1",
+   "lang": "ru",
+   "standing": "press",
+   "hl": "ru",
+   "gl": "RU",
+   "ceid": "RU:ru",
+   "query": "центральный банк AND (денежная масса OR эмиссия OR ставка)"
+  },
+  {
+   "label": "Russian (Central Asia) 2",
+   "lang": "ru",
+   "standing": "press",
+   "hl": "ru",
+   "gl": "KZ",
+   "ceid": "KZ:ru",
+   "query": "(МВФ OR \"Всемирный банк\") AND (кредит OR условия OR программа)"
+  },
+  {
+   "label": "Russian 3",
+   "lang": "ru",
+   "standing": "press",
+   "hl": "ru",
+   "gl": "RU",
+   "ceid": "RU:ru",
+   "query": "\"суверенный долг\" AND (дефолт OR реструктуризация)"
+  },
+  {
+   "label": "Russian (Central Asia) 4",
+   "lang": "ru",
+   "standing": "press",
+   "hl": "ru",
+   "gl": "KZ",
+   "ceid": "KZ:ru",
+   "query": "(добыча OR нефть OR литий) AND (концессия OR лицензия OR национализация)"
+  },
+  {
+   "label": "Russian 5",
+   "lang": "ru",
+   "standing": "press",
+   "hl": "ru",
+   "gl": "RU",
+   "ceid": "RU:ru",
+   "query": "\"захват земель\" OR \"земельная концессия\" OR изъятие земли"
+  },
+  {
+   "label": "Russian (Central Asia) 6",
+   "lang": "ru",
+   "standing": "press",
+   "hl": "ru",
+   "gl": "KZ",
+   "ceid": "KZ:ru",
+   "query": "(вода OR электроэнергия) AND (приватизация OR концессия OR тариф)"
+  },
+  {
+   "label": "Russian 7",
+   "lang": "ru",
+   "standing": "press",
+   "hl": "ru",
+   "gl": "RU",
+   "ceid": "RU:ru",
+   "query": "офшор OR \"подставная компания\" OR \"незаконные финансовые потоки\""
+  },
+  {
+   "label": "Arabic (Egypt) 1",
+   "lang": "ar",
+   "standing": "press",
+   "hl": "ar",
+   "gl": "EG",
+   "ceid": "EG:ar",
+   "query": "البنك المركزي AND (السياسة النقدية OR عرض النقود OR الاحتياطي)"
+  },
+  {
+   "label": "Arabic (Gulf) 2",
+   "lang": "ar",
+   "standing": "press",
+   "hl": "ar",
+   "gl": "AE",
+   "ceid": "AE:ar",
+   "query": "(صندوق النقد الدولي OR البنك الدولي) AND (قرض OR شروط OR تقشف)"
+  },
+  {
+   "label": "Arabic (Levant) 3",
+   "lang": "ar",
+   "standing": "press",
+   "hl": "ar",
+   "gl": "LB",
+   "ceid": "LB:ar",
+   "query": "\"الديون السيادية\" AND (تخلف عن السداد OR إعادة هيكلة OR إعفاء)"
+  },
+  {
+   "label": "Arabic (Egypt) 4",
+   "lang": "ar",
+   "standing": "press",
+   "hl": "ar",
+   "gl": "EG",
+   "ceid": "EG:ar",
+   "query": "(تعدين OR نفط OR غاز) AND (امتياز OR ترخيص OR تأميم)"
+  },
+  {
+   "label": "Arabic (Gulf) 5",
+   "lang": "ar",
+   "standing": "press",
+   "hl": "ar",
+   "gl": "AE",
+   "ceid": "AE:ar",
+   "query": "\"الاستيلاء على الأراضي\" OR \"امتياز أراض\" OR نزع الملكية"
+  },
+  {
+   "label": "Arabic (Levant) 6",
+   "lang": "ar",
+   "standing": "press",
+   "hl": "ar",
+   "gl": "LB",
+   "ceid": "LB:ar",
+   "query": "(المياه OR الكهرباء) AND (خصخصة OR امتياز OR تعرفة)"
+  },
+  {
+   "label": "Arabic (Egypt) 7",
+   "lang": "ar",
+   "standing": "press",
+   "hl": "ar",
+   "gl": "EG",
+   "ceid": "EG:ar",
+   "query": "\"ملاذ ضريبي\" OR \"شركة وهمية\" OR \"تدفقات مالية غير مشروعة\""
+  },
+  {
+   "label": "Chinese (PRC) 1",
+   "lang": "zh",
+   "standing": "press",
+   "hl": "zh-CN",
+   "gl": "CN",
+   "ceid": "CN:zh-Hans",
+   "query": "央行 AND (货币政策 OR 货币供应 OR 存款准备金)"
+  },
+  {
+   "label": "Chinese (Taiwan) 2",
+   "lang": "zh",
+   "standing": "press",
+   "hl": "zh-TW",
+   "gl": "TW",
+   "ceid": "TW:zh-Hant",
+   "query": "(国际货币基金组织 OR 世界银行) AND (贷款 OR 条件 OR 紧缩)"
+  },
+  {
+   "label": "Chinese (Hong Kong) 3",
+   "lang": "zh",
+   "standing": "press",
+   "hl": "zh-HK",
+   "gl": "HK",
+   "ceid": "HK:zh-Hant",
+   "query": "主权债务 AND (违约 OR 重组 OR 减免)"
+  },
+  {
+   "label": "Chinese (PRC) 4",
+   "lang": "zh",
+   "standing": "press",
+   "hl": "zh-CN",
+   "gl": "CN",
+   "ceid": "CN:zh-Hans",
+   "query": "(采矿 OR 石油 OR 锂) AND (特许权 OR 招标 OR 国有化)"
+  },
+  {
+   "label": "Chinese (Taiwan) 5",
+   "lang": "zh",
+   "standing": "press",
+   "hl": "zh-TW",
+   "gl": "TW",
+   "ceid": "TW:zh-Hant",
+   "query": "土地掠夺 OR 土地特许 OR 征地"
+  },
+  {
+   "label": "Chinese (Hong Kong) 6",
+   "lang": "zh",
+   "standing": "press",
+   "hl": "zh-HK",
+   "gl": "HK",
+   "ceid": "HK:zh-Hant",
+   "query": "(供水 OR 电力) AND (私有化 OR 特许经营 OR 涨价)"
+  },
+  {
+   "label": "Chinese (PRC) 7",
+   "lang": "zh",
+   "standing": "press",
+   "hl": "zh-CN",
+   "gl": "CN",
+   "ceid": "CN:zh-Hans",
+   "query": "避税天堂 OR 空壳公司 OR 非法资金流动"
+  },
+  {
+   "label": "Chinese (Taiwan) 8",
+   "lang": "zh",
+   "standing": "press",
+   "hl": "zh-TW",
+   "gl": "TW",
+   "ceid": "TW:zh-Hant",
+   "query": "数字人民币 OR 央行数字货币"
+  },
+  {
+   "label": "Hindi 1",
+   "lang": "hi",
+   "standing": "press",
+   "hl": "hi",
+   "gl": "IN",
+   "ceid": "IN:hi",
+   "query": "केंद्रीय बैंक AND (मौद्रिक नीति OR मुद्रा आपूर्ति)"
+  },
+  {
+   "label": "Hindi 2",
+   "lang": "hi",
+   "standing": "press",
+   "hl": "hi",
+   "gl": "IN",
+   "ceid": "IN:hi",
+   "query": "(आईएमएफ OR \"विश्व बैंक\") AND (ऋण OR शर्तें OR कटौती)"
+  },
+  {
+   "label": "Hindi 3",
+   "lang": "hi",
+   "standing": "press",
+   "hl": "hi",
+   "gl": "IN",
+   "ceid": "IN:hi",
+   "query": "(खनन OR तेल OR लिथियम) AND (रियायत OR नीलामी OR राष्ट्रीयकरण)"
+  },
+  {
+   "label": "Hindi 4",
+   "lang": "hi",
+   "standing": "press",
+   "hl": "hi",
+   "gl": "IN",
+   "ceid": "IN:hi",
+   "query": "\"भूमि अधिग्रहण\" OR \"भूमि रियायत\" OR कर चोरी स्वर्ग"
+  },
+  {
+   "label": "Bengali 1",
+   "lang": "bn",
+   "standing": "press",
+   "hl": "bn",
+   "gl": "BD",
+   "ceid": "BD:bn",
+   "query": "কেন্দ্রীয় ব্যাংক AND (মুদ্রানীতি OR অর্থ সরবরাহ)"
+  },
+  {
+   "label": "Bengali 2",
+   "lang": "bn",
+   "standing": "press",
+   "hl": "bn",
+   "gl": "BD",
+   "ceid": "BD:bn",
+   "query": "(আইএমএফ OR \"বিশ্ব ব্যাংক\") AND (ঋণ OR শর্ত OR কৃচ্ছ্রতা)"
+  },
+  {
+   "label": "Bengali 3",
+   "lang": "bn",
+   "standing": "press",
+   "hl": "bn",
+   "gl": "BD",
+   "ceid": "BD:bn",
+   "query": "\"ভূমি দখল\" OR \"খনি ইজারা\" OR জাতীয়করণ"
+  },
+  {
+   "label": "Indonesian 1",
+   "lang": "id",
+   "standing": "press",
+   "hl": "id",
+   "gl": "ID",
+   "ceid": "ID:id",
+   "query": "bank sentral AND (kebijakan moneter OR jumlah uang beredar)"
+  },
+  {
+   "label": "Indonesian 2",
+   "lang": "id",
+   "standing": "press",
+   "hl": "id",
+   "gl": "ID",
+   "ceid": "ID:id",
+   "query": "(IMF OR \"Bank Dunia\") AND (pinjaman OR persyaratan OR penghematan)"
+  },
+  {
+   "label": "Indonesian 3",
+   "lang": "id",
+   "standing": "press",
+   "hl": "id",
+   "gl": "ID",
+   "ceid": "ID:id",
+   "query": "(tambang OR nikel OR minyak) AND (konsesi OR lelang OR nasionalisasi)"
+  },
+  {
+   "label": "Indonesian 4",
+   "lang": "id",
+   "standing": "press",
+   "hl": "id",
+   "gl": "ID",
+   "ceid": "ID:id",
+   "query": "\"perampasan tanah\" OR \"konsesi lahan\" OR privatisasi air"
+  },
+  {
+   "label": "Japanese 1",
+   "lang": "ja",
+   "standing": "press",
+   "hl": "ja",
+   "gl": "JP",
+   "ceid": "JP:ja",
+   "query": "中央銀行 AND (金融政策 OR マネーサプライ)"
+  },
+  {
+   "label": "Japanese 2",
+   "lang": "ja",
+   "standing": "press",
+   "hl": "ja",
+   "gl": "JP",
+   "ceid": "JP:ja",
+   "query": "(IMF OR 世界銀行) AND (融資 OR 条件 OR 緊縮)"
+  },
+  {
+   "label": "Japanese 3",
+   "lang": "ja",
+   "standing": "press",
+   "hl": "ja",
+   "gl": "JP",
+   "ceid": "JP:ja",
+   "query": "(鉱山 OR 石油 OR リチウム) AND (利権 OR 入札 OR 国有化)"
+  },
+  {
+   "label": "Korean 1",
+   "lang": "ko",
+   "standing": "press",
+   "hl": "ko",
+   "gl": "KR",
+   "ceid": "KR:ko",
+   "query": "중앙은행 AND (통화정책 OR 통화량)"
+  },
+  {
+   "label": "Korean 2",
+   "lang": "ko",
+   "standing": "press",
+   "hl": "ko",
+   "gl": "KR",
+   "ceid": "KR:ko",
+   "query": "(IMF OR 세계은행) AND (대출 OR 조건 OR 긴축)"
+  },
+  {
+   "label": "Korean 3",
+   "lang": "ko",
+   "standing": "press",
+   "hl": "ko",
+   "gl": "KR",
+   "ceid": "KR:ko",
+   "query": "(광산 OR 석유 OR 리튬) AND (양허 OR 입찰 OR 국유화)"
+  },
+  {
+   "label": "Turkish 1",
+   "lang": "tr",
+   "standing": "press",
+   "hl": "tr",
+   "gl": "TR",
+   "ceid": "TR:tr",
+   "query": "merkez bankası AND (para politikası OR para arzı)"
+  },
+  {
+   "label": "Turkish 2",
+   "lang": "tr",
+   "standing": "press",
+   "hl": "tr",
+   "gl": "TR",
+   "ceid": "TR:tr",
+   "query": "(IMF OR \"Dünya Bankası\") AND (kredi OR koşul OR kemer sıkma)"
+  },
+  {
+   "label": "Turkish 3",
+   "lang": "tr",
+   "standing": "press",
+   "hl": "tr",
+   "gl": "TR",
+   "ceid": "TR:tr",
+   "query": "(madencilik OR petrol) AND (imtiyaz OR ihale OR kamulaştırma)"
+  },
+  {
+   "label": "Italian 1",
+   "lang": "it",
+   "standing": "press",
+   "hl": "it",
+   "gl": "IT",
+   "ceid": "IT:it",
+   "query": "banca centrale AND (politica monetaria OR massa monetaria)"
+  },
+  {
+   "label": "Italian 2",
+   "lang": "it",
+   "standing": "press",
+   "hl": "it",
+   "gl": "IT",
+   "ceid": "IT:it",
+   "query": "(FMI OR \"Banca Mondiale\") AND (prestito OR condizioni OR austerità)"
+  },
+  {
+   "label": "Italian 3",
+   "lang": "it",
+   "standing": "press",
+   "hl": "it",
+   "gl": "IT",
+   "ceid": "IT:it",
+   "query": "(miniera OR petrolio OR litio) AND (concessione OR gara OR nazionalizzazione)"
+  },
+  {
+   "label": "Italian 4",
+   "lang": "it",
+   "standing": "press",
+   "hl": "it",
+   "gl": "IT",
+   "ceid": "IT:it",
+   "query": "\"paradiso fiscale\" OR \"società di comodo\""
+  },
+  {
+   "label": "Dutch 1",
+   "lang": "nl",
+   "standing": "press",
+   "hl": "nl",
+   "gl": "NL",
+   "ceid": "NL:nl",
+   "query": "centrale bank AND (monetair beleid OR geldhoeveelheid)"
+  },
+  {
+   "label": "Dutch 2",
+   "lang": "nl",
+   "standing": "press",
+   "hl": "nl",
+   "gl": "NL",
+   "ceid": "NL:nl",
+   "query": "(IMF OR Wereldbank) AND (lening OR voorwaarden OR bezuiniging)"
+  },
+  {
+   "label": "Dutch 3",
+   "lang": "nl",
+   "standing": "press",
+   "hl": "nl",
+   "gl": "NL",
+   "ceid": "NL:nl",
+   "query": "belastingparadijs OR brievenbusfirma OR landroof"
+  },
+  {
+   "label": "Polish 1",
+   "lang": "pl",
+   "standing": "press",
+   "hl": "pl",
+   "gl": "PL",
+   "ceid": "PL:pl",
+   "query": "bank centralny AND (polityka pieniężna OR podaż pieniądza)"
+  },
+  {
+   "label": "Polish 2",
+   "lang": "pl",
+   "standing": "press",
+   "hl": "pl",
+   "gl": "PL",
+   "ceid": "PL:pl",
+   "query": "(MFW OR \"Bank Światowy\") AND (pożyczka OR warunki OR oszczędności)"
+  },
+  {
+   "label": "Polish 3",
+   "lang": "pl",
+   "standing": "press",
+   "hl": "pl",
+   "gl": "PL",
+   "ceid": "PL:pl",
+   "query": "\"raj podatkowy\" OR \"spółka wydmuszka\" OR wywłaszczenie"
+  },
+  {
+   "label": "Swedish 1",
+   "lang": "sv",
+   "standing": "press",
+   "hl": "sv",
+   "gl": "SE",
+   "ceid": "SE:sv",
+   "query": "centralbank AND (penningpolitik OR penningmängd)"
+  },
+  {
+   "label": "Swedish 2",
+   "lang": "sv",
+   "standing": "press",
+   "hl": "sv",
+   "gl": "SE",
+   "ceid": "SE:sv",
+   "query": "(IMF OR Världsbanken) AND (lån OR villkor OR åtstramning)"
+  },
+  {
+   "label": "Ukrainian 1",
+   "lang": "uk",
+   "standing": "press",
+   "hl": "uk",
+   "gl": "UA",
+   "ceid": "UA:uk",
+   "query": "центральний банк AND (монетарна політика OR грошова маса)"
+  },
+  {
+   "label": "Ukrainian 2",
+   "lang": "uk",
+   "standing": "press",
+   "hl": "uk",
+   "gl": "UA",
+   "ceid": "UA:uk",
+   "query": "(МВФ OR \"Світовий банк\") AND (кредит OR умови OR програма)"
+  },
+  {
+   "label": "Greek 1",
+   "lang": "el",
+   "standing": "press",
+   "hl": "el",
+   "gl": "GR",
+   "ceid": "GR:el",
+   "query": "κεντρική τράπεζα AND (νομισματική πολιτική)"
+  },
+  {
+   "label": "Greek 2",
+   "lang": "el",
+   "standing": "press",
+   "hl": "el",
+   "gl": "GR",
+   "ceid": "GR:el",
+   "query": "(ΔΝΤ OR \"Παγκόσμια Τράπεζα\") AND (δάνειο OR όροι OR λιτότητα)"
+  },
+  {
+   "label": "Persian 1",
+   "lang": "fa",
+   "standing": "press",
+   "hl": "fa",
+   "gl": "IR",
+   "ceid": "IR:fa",
+   "query": "بانک مرکزی AND (سیاست پولی OR نقدینگی)"
+  },
+  {
+   "label": "Persian 2",
+   "lang": "fa",
+   "standing": "press",
+   "hl": "fa",
+   "gl": "IR",
+   "ceid": "IR:fa",
+   "query": "(صندوق بین‌المللی پول OR بانک جهانی) AND (وام OR شرایط)"
+  },
+  {
+   "label": "Vietnamese 1",
+   "lang": "vi",
+   "standing": "press",
+   "hl": "vi",
+   "gl": "VN",
+   "ceid": "VN:vi",
+   "query": "ngân hàng trung ương AND (chính sách tiền tệ OR cung tiền)"
+  },
+  {
+   "label": "Vietnamese 2",
+   "lang": "vi",
+   "standing": "press",
+   "hl": "vi",
+   "gl": "VN",
+   "ceid": "VN:vi",
+   "query": "(IMF OR \"Ngân hàng Thế giới\") AND (khoản vay OR điều kiện)"
+  },
+  {
+   "label": "Vietnamese 3",
+   "lang": "vi",
+   "standing": "press",
+   "hl": "vi",
+   "gl": "VN",
+   "ceid": "VN:vi",
+   "query": "(khai thác mỏ OR dầu khí) AND (nhượng quyền OR đấu thầu)"
+  },
+  {
+   "label": "Thai 1",
+   "lang": "th",
+   "standing": "press",
+   "hl": "th",
+   "gl": "TH",
+   "ceid": "TH:th",
+   "query": "ธนาคารกลาง AND (นโยบายการเงิน OR ปริมาณเงิน)"
+  },
+  {
+   "label": "Thai 2",
+   "lang": "th",
+   "standing": "press",
+   "hl": "th",
+   "gl": "TH",
+   "ceid": "TH:th",
+   "query": "(ไอเอ็มเอฟ OR \"ธนาคารโลก\") AND (เงินกู้ OR เงื่อนไข)"
+  },
+  {
+   "label": "Swahili 1",
+   "lang": "sw",
+   "standing": "press",
+   "hl": "sw",
+   "gl": "KE",
+   "ceid": "KE:sw",
+   "query": "benki kuu AND (sera ya fedha)"
+  },
+  {
+   "label": "Swahili 2",
+   "lang": "sw",
+   "standing": "press",
+   "hl": "sw",
+   "gl": "KE",
+   "ceid": "KE:sw",
+   "query": "(IMF OR \"Benki ya Dunia\") AND (mkopo OR masharti)"
+  },
+  {
+   "label": "Swahili 3",
+   "lang": "sw",
+   "standing": "press",
+   "hl": "sw",
+   "gl": "KE",
+   "ceid": "KE:sw",
+   "query": "(madini OR mafuta) AND (leseni OR ubinafsishaji OR unyakuzi wa ardhi)"
+  },
+  {
+   "label": "Amharic 1",
+   "lang": "am",
+   "standing": "press",
+   "hl": "am",
+   "gl": "ET",
+   "ceid": "ET:am",
+   "query": "(አይኤምኤፍ OR \"የዓለም ባንክ\") AND (ብድር OR ቅድመ ሁኔታ)"
+  },
+  {
+   "label": "Hausa 1",
+   "lang": "ha",
+   "standing": "press",
+   "hl": "ha",
+   "gl": "NG",
+   "ceid": "NG:ha",
+   "query": "(IMF OR \"Bankin Duniya\") AND (rance OR sharuɗɗa)"
+  },
+  {
+   "label": "Hausa 2",
+   "lang": "ha",
+   "standing": "press",
+   "hl": "ha",
+   "gl": "NG",
+   "ceid": "NG:ha",
+   "query": "\"kwacen filaye\" OR ma'adinai lasisi"
+  }
+ ],
+ "events": [
+  {
+   "label": "IMF programmes",
+   "lang": "en",
+   "standing": "official",
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en",
+   "query": "\"IMF\" AND (staff-level agreement OR programme approved OR review completed OR tranche disbursed)"
+  },
+  {
+   "label": "World Bank lending",
+   "lang": "en",
+   "standing": "official",
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en",
+   "query": "\"World Bank\" AND (approves OR loan OR credit OR project financing)"
+  },
+  {
+   "label": "Debt restructuring",
+   "lang": "en",
+   "standing": "official",
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en",
+   "query": "\"debt restructuring\" OR \"common framework\" OR \"Paris Club\" OR bondholder agreement"
+  },
+  {
+   "label": "Investment arbitration",
+   "lang": "en",
+   "standing": "official",
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en",
+   "query": "ICSID OR \"investor-state\" award OR \"arbitral tribunal\" investment"
+  },
+  {
+   "label": "Trade disputes",
+   "lang": "en",
+   "standing": "official",
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en",
+   "query": "WTO \"dispute settlement\" OR panel ruling trade"
+  },
+  {
+   "label": "Concession awards",
+   "lang": "en",
+   "standing": "official",
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en",
+   "query": "\"concession awarded\" OR \"licensing round\" OR \"production sharing agreement\" signed"
+  },
+  {
+   "label": "Privatisation and remunicipalisation",
+   "lang": "en",
+   "standing": "official",
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en",
+   "query": "utility privatisation OR remunicipalisation water OR \"public ownership\" energy"
+  },
+  {
+   "label": "Sanctions and asset freezes",
+   "lang": "en",
+   "standing": "official",
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en",
+   "query": "\"asset freeze\" OR sanctions designation OR \"SWIFT\" cut off"
+  },
+  {
+   "label": "CBDC rollouts",
+   "lang": "en",
+   "standing": "official",
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en",
+   "query": "CBDC pilot OR \"digital currency\" central bank launch"
+  },
+  {
+   "label": "Basic income trials",
+   "lang": "en",
+   "standing": "official",
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en",
+   "query": "\"basic income\" pilot OR \"cash transfer\" unconditional programme"
+  }
+ ]
+}
