@@ -219,7 +219,7 @@
         <div class="rc-bar">
             <p class="rc-status" id="rcStatus">Loading the wire…</p>
             <div class="rc-tools">
-                <input class="rc-search" id="rcSearch" type="search" placeholder="mifepristone, ruling, clinic, referendum…" aria-label="Filter headlines">
+                <input class="rc-search" id="rcSearch" type="search" placeholder="IMF, tariff, farmland, lithium…" aria-label="Filter headlines">
                 <button class="rc-btn" id="rcClear">Clear</button>
                 <button class="rc-btn" id="rcRefresh">Refresh</button>
             </div>
@@ -333,22 +333,32 @@ const ENDPOINTS = [
     () => 'https://cdn.jsdelivr.net/gh/' + REPO + '@' + BRANCH + '/wire_resource.json'
 ];
 
+// One colour per topic the harvester emits, grouped so the families read
+// together: money in the clay and mauve band, law and trade in slate,
+// the physical resources in moss and weathered teal.
 const TOPIC_COLOR = {
-    courts: '#b58080',        // indigo
-    legislation: '#8ea2b8',   // azure
-    access: '#a8b79a',        // teal
-    medication: '#c08a86',    // mint
-    enforcement: '#a496b8',   // rose
-    health: '#a9a49a',        // cyan
-    international: '#86a5a5', // violet
-    movements: '#c4a6a2',     // magenta
-    privacy: '#93a3c0',       // slate
-    crisis: '#b193a8'         // pink
+    creation: '#b58080',       // clay
+    credit: '#c08a86',         // deep clay
+    reserves: '#c4a6a2',       // dusty rose
+    debt: '#ab8f93',           // muted rose
+    lending: '#b193a8',        // mauve
+    gatekeeping: '#a496b8',    // muted violet
+    digital: '#9b93b0',        // dim violet
+    secrecy: '#8a8496',        // taupe
+    traderule: '#8ea2b8',      // dusty blue
+    investorrights: '#93a3c0', // slate blue
+    enclosure: '#7f96a6',      // deep slate
+    land: '#a8b79a',           // moss
+    ground: '#94a888',         // deep moss
+    harvest: '#a3ab93',        // sage
+    water: '#86a5a5',          // weathered teal
+    route: '#a9a49a',          // taupe
+    wayout: '#a9b0b8'          // pale slate
 };
 // Standing colours are deliberately neutral in tone: the two advocacy labels
 // are as visually equal as the palette allows.
 const STANDING_COLOR = {
-    official: '#9fb8ff', research: '#8de6c8', press: '#9fb0c8',
+    official: '#93a3c0', research: '#a8b79a', press: '#a49f98',
     rights: '#86a5a5', industry: '#b193a8'
 };
 const WINDOWS = [

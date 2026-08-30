@@ -1176,7 +1176,7 @@ def run(dry_run=False, fixtures=None):
                     continue
                 regions, subs, places = places_for(text)
                 total, reasons = weight(text, src["standing"], regions != ["unlocated"])
-                row["x"] = topics_for(text) or ["access"]
+                row["x"] = topics_for(text) or ["ground"]
                 row["w"] = regions
                 row["sr"] = subs
                 row["pl"] = places
@@ -1222,10 +1222,10 @@ def run(dry_run=False, fixtures=None):
         "notable_score": NOTABLE_SCORE,
         "languages": languages,
         "standings": [
-            {"id": "official", "label": "Courts & institutions"},
-            {"id": "research", "label": "Research & health"},
+            {"id": "official", "label": "Institutions & central banks"},
+            {"id": "research", "label": "Research & analysis"},
             {"id": "press", "label": "Press"},
-            {"id": "rights", "label": "Abortion-rights advocacy"},
+            {"id": "rights", "label": "Debt, land & trade justice"},
             {"id": "industry", "label": "Industry & finance"},
         ],
         "topics": [{"id": tid, "label": label} for tid, label, _ in TOPICS],
