@@ -91,6 +91,9 @@
     background: rgba(255,255,255,0.05); border: 1px solid var(--line); border-radius: 999px;
     padding: 0.26rem 0.5rem; cursor: pointer; max-width: 150px; }
 .rc-tr select:focus { outline: none; border-color: rgba(255,255,255,0.28); }
+/* Options render in the platform's own menu, which is light on most systems.
+   Without this they inherit the near-white --ink and print white on white. */
+.rc-tr select option { color: #131311; background: #e8e6e1; }
 .rc-mt { color: var(--ink-faint); border: 1px solid var(--line-soft); border-radius: 999px;
     padding: 0.02rem 0.38rem; letter-spacing: 0.1em; }
 .rc-orig { color: var(--ink-faint); text-decoration: underline; text-underline-offset: 2px; }
@@ -153,11 +156,6 @@
         radial-gradient(ellipse 120% 85% at 50% 108%, rgba(12,16,11,0.40), transparent 54%); }
 .rc-placed { margin: 0.2rem 0 0; font-size: 0.68rem; line-height: 1.4; color: var(--ink-faint); }
 .rc-placed b { font-weight: 400; color: var(--ink-dim); }
-    border-top: 1px solid var(--line-soft); background: #0e0f0c; }
-    font-size: 0.55rem; color: var(--ink-faint); border-bottom: 1px solid var(--line-soft); }
-    cursor: pointer; padding: 0 0.15rem; }
-    font: inherit; font-size: 0.5rem; letter-spacing: 0.08em; text-transform: uppercase;
-    padding: 0.1rem 0.4rem; border-radius: 3px; cursor: pointer; }
 .rc-map-note { flex: 0 0 auto; font-size: 0.55rem; color: var(--ink-faint); padding: 0.28rem 0.6rem;
     border-top: 1px solid var(--line-soft); display: flex; align-items: center; gap: 0.5rem; }
 .rc-map .leaflet-container { background: #0e0f0c; font-family: inherit; }

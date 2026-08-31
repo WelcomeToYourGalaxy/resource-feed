@@ -539,7 +539,7 @@ TOPICS = [
         ("land titling", []), ("cadastre", []), ("land registry", ["reform", "digital", "dispute"]),
         ("expropriation", []), ("eminent domain", []), ("compulsory purchase", []),
         ("special economic zone", []), ("free trade zone", []), ("enclosure", ["land", "commons", "common"]),
-        ("commons", ["enclosure", "privatis", "privatiz", "grazing", "forest"]),
+        ("commons", ["enclosure", "privatis*", "privatiz*", "grazing", "forest"]),
         ("customary land", []), ("communal land", []),
     ]),
     ("ground", "Who holds the ground", [
@@ -587,7 +587,7 @@ TOPICS = [
         ("electricity", ["privatisation", "privatization", "concession", "tariff", "grid sale"]),
         ("grid", ["privatisation", "privatization", "concession", "ownership", "sale"]),
         ("tariff hike", ["water", "electricity", "utility", "power"]),
-        ("public utility", ["sale", "sold", "concession", "privatis", "privatiz"]),
+        ("public utility", ["sale", "sold", "concession", "privatis*", "privatiz*"]),
     ]),
     ("route", "Who controls the route", [
         ("port concession", []), ("terminal concession", []), ("port operator", []),
