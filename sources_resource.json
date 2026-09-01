@@ -820,7 +820,7 @@
    "hl": "zh-TW",
    "gl": "TW",
    "ceid": "TW:zh-Hant",
-   "query": "(国际货币基金组织 OR 世界银行) AND (贷款 OR 条件 OR 紧缩)"
+   "query": "(國際貨幣基金組織 OR 世界銀行) AND (貸款 OR 條件 OR 緊縮)"
   },
   {
    "label": "Chinese (Hong Kong) 3",
@@ -829,7 +829,7 @@
    "hl": "zh-HK",
    "gl": "HK",
    "ceid": "HK:zh-Hant",
-   "query": "主权债务 AND (违约 OR 重组 OR 减免)"
+   "query": "主權債務 AND (違約 OR 重組 OR 減免)"
   },
   {
    "label": "Chinese (PRC) 4",
@@ -847,7 +847,7 @@
    "hl": "zh-TW",
    "gl": "TW",
    "ceid": "TW:zh-Hant",
-   "query": "土地掠夺 OR 土地特许 OR 征地"
+   "query": "土地掠奪 OR 土地特許 OR 徵地"
   },
   {
    "label": "Chinese (Hong Kong) 6",
@@ -856,7 +856,7 @@
    "hl": "zh-HK",
    "gl": "HK",
    "ceid": "HK:zh-Hant",
-   "query": "(供水 OR 电力) AND (私有化 OR 特许经营 OR 涨价)"
+   "query": "(供水 OR 電力) AND (私有化 OR 特許經營 OR 漲價)"
   },
   {
    "label": "Chinese (PRC) 7",
@@ -874,7 +874,7 @@
    "hl": "zh-TW",
    "gl": "TW",
    "ceid": "TW:zh-Hant",
-   "query": "数字人民币 OR 央行数字货币"
+   "query": "數字人民幣 OR 央行數字貨幣"
   },
   {
    "label": "Hindi 1",
